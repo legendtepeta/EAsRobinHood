@@ -1,4 +1,4 @@
-# Portafolio de Estrategias Algorítmicas para NASDAQ (US100)
+# RobinHood Proyect para NASDAQ (US100)
 
 ## Introducción
 Este documento explica, paso a paso, la lógica y los detalles de cinco Expert Advisors (EAs) diseñados para operar el índice NASDAQ (US100, NQ) en MetaTrader 5.

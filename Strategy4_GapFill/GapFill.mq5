@@ -3,7 +3,7 @@
 //|                             Gap Fill (Overnight Structure)        |
 //|            Capitalizing on market psychology and rebalancing      |
 //+------------------------------------------------------------------+
-#property copyright "NASDAQ Strategy Portfolio"
+#property copyright "RobinHood Proyect"
 #property version   "1.00"
 #property description "Gap Fill strategy for NASDAQ/US100"
 #property strict

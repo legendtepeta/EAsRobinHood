@@ -3,7 +3,7 @@
 //|                        Price Action Master (Candlestick Patterns) |
 //|                   Pure price behavior at key round numbers        |
 //+------------------------------------------------------------------+
-#property copyright "NASDAQ Strategy Portfolio"
+#property copyright "RobinHood Proyect"
 #property version   "1.00"
 #property description "Candlestick Pattern recognition at Key Levels for NASDAQ/US100"
 #property strict

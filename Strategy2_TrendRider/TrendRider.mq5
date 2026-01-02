@@ -3,7 +3,7 @@
 //|                              Trend-Rider (Dual EMA + RSI Filter)  |
 //|                            Capturing sustained intraday moves     |
 //+------------------------------------------------------------------+
-#property copyright "NASDAQ Strategy Portfolio"
+#property copyright "RobinHood Proyect"
 #property version   "1.00"
 #property description "Dual EMA Crossover with RSI filter for NASDAQ/US100"
 #property strict

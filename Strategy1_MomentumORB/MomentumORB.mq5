@@ -3,7 +3,7 @@
 //|                           Momentum Opening Range Breakout (ORB)  |
 //|                   Exploiting liquidity at the US Market Open     |
 //+------------------------------------------------------------------+
-#property copyright "NASDAQ Strategy Portfolio"
+#property copyright "RobinHood Proyect"
 #property version   "1.00"
 #property description "Opening Range Breakout strategy for NASDAQ/US100"
 #property strict

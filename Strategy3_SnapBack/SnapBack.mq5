@@ -3,7 +3,7 @@
 //|                         Snap-Back (Bollinger Mean Reversion)      |
 //|                  Profiting from choppy, sideways markets          |
 //+------------------------------------------------------------------+
-#property copyright "NASDAQ Strategy Portfolio"
+#property copyright "RobinHood Proyect"
 #property version   "1.00"
 #property description "Bollinger Band Mean Reversion with ADX filter for NASDAQ/US100"
 #property strict
