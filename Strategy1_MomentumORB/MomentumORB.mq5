@@ -226,22 +226,17 @@ void ManageOCO()
    //--- If we have a position, delete remaining pending orders
    bool hasPosition = false;
    
-   if(PositionSelect(Symbol()))
+   //--- Check all positions for our EA
+   for(int i=PositionsTotal()-1; i>=0; i--)
    {
-      if(posInfo.Magic() == InpMagicNumber) hasPosition = true;
-   }
-   else
-   {
-      // Check all positions manually to be safe
-      for(int i=PositionsTotal()-1; i>=0; i--)
+      ulong ticket = PositionGetTicket(i);
+      if(ticket > 0)
       {
-         if(posInfo.SelectByIndex(i))
+         if(PositionGetString(POSITION_SYMBOL) == Symbol() && 
+            PositionGetInteger(POSITION_MAGIC) == InpMagicNumber)
          {
-            if(posInfo.Symbol() == Symbol() && posInfo.Magic() == InpMagicNumber)
-            {
-               hasPosition = true;
-               break;
-            }
+            hasPosition = true;
+            break;
          }
       }
    }
